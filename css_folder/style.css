@@ -1,0 +1,18 @@
+
+body {
+    background-color: #f0f8ff; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: green;
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
