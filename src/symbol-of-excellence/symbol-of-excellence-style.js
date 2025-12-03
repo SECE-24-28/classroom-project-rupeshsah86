@@ -2,77 +2,109 @@ import styled from "styled-components";
 
 export const SymbolOfExcellenceStyle = styled.div`
   width: 100%;
-  padding: 60px 20px;
+  padding: 80px 20px;
+  background: #f8f8f8;
   box-sizing: border-box;
-  font-family: "Arial", sans-serif;
+  font-family: "Inter", sans-serif;
 
-  /* FIRST SECTION */
+  /* TOP HEADING SECTION */
   .element__one {
-    max-width: 900px;
-    margin: 0 auto 50px auto;
+    max-width: 1000px;
+    margin: 0 auto 60px auto;
     text-align: center;
 
     h1 {
-      font-size: 2.4rem;
+      font-size: 2.8rem;
+      font-weight: 800;
+      margin-bottom: 25px;
+      color: #000;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.9;
+      color: #5c6880;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+  }
+
+  /* VISION + MISSION SECTION */
+  .element__two {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .element__two__child {
+    flex: 1;
+    max-width: 500px;
+
+    h2 {
+      font-size: 1.8rem;
       font-weight: 700;
-      margin-bottom: 20px;
-      color: #222;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+    }
+
+    /* LEFT ORANGE BAR (Vision) */
+    &:first-child h2 {
+      color: #f4a640; /* vision orange */
+      position: relative;
+      padding-left: 12px;
+    }
+
+    &:first-child h2::before {
+      content: "";
+      width: 5px;
+      height: 26px;
+      background: #f4a640;
+      position: absolute;
+      left: 0;
+      border-radius: 3px;
+    }
+
+    /* RIGHT BLUE BAR (Mission) */
+    &:last-child h2 {
+      color: #27c3ff; /* mission blue */
+      position: relative;
+      padding-left: 12px;
+    }
+
+    &:last-child h2::before {
+      content: "";
+      width: 5px;
+      height: 26px;
+      background: #27c3ff;
+      position: absolute;
+      left: 0;
+      border-radius: 3px;
     }
 
     p {
       font-size: 1.1rem;
-      line-height: 1.7;
-      color: #555;
+      line-height: 1.8;
+      color: #5c6880;
+      margin-top: 10px;
     }
   }
 
-  /* SECOND SECTION */
-  .element__two {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    max-width: 1100px;
-    margin: 0 auto;
-
-    .element__two__child {
-      background: #efebebff;
-      padding: 25px;
-      border-radius: 12px;
-      flex: 1;
-      min-height: 200px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-      transition: transform 0.2s ease-in-out;
-
-      &:hover {
-        transform: translateY(-5px);
-      }
-
-      h2 {
-        font-size: 1.6rem;
-        margin-bottom: 15px;
-        color: #e9e9e9ff;
-      }
-
-      p {
-        font-size: 1rem;
-        line-height: 1.6;
-        color: #dbdfc9ff;
-      }
-    }
-  }
-
-  /* RESPONSIVE DESIGN */
-  @media (max-width: 768px) {
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
     .element__two {
       flex-direction: column;
+      gap: 60px;
+      padding-top: 30px;
     }
 
     .element__one h1 {
-      font-size: 2rem;
-    }
-
-    .element__two__child h2 {
-      font-size: 1.4rem;
+      font-size: 2.2rem;
     }
   }
 `;
