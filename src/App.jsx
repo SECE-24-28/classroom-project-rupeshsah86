@@ -68,13 +68,15 @@ import "./App.css";
 import FlexBoxComponent from "./flex-box/flex-box-component";
 import HelloWorldComponent from "./Hello-world/hello-world-component";
 import LeadersTomorrowComponent from "./leaders-tomorrow/leaders-tomorrow-component";
+import SymbolExcellenceComponent from "./symbol-of-excellence/symbol-of-excellence-component";
 
 function App() {
   return (
     <div>
       {/* <HelloWorldComponent /> */}
       {/* <FlexBoxComponent /> */}
-      <LeadersTomorrowComponent />
+      {/* <LeadersTomorrowComponent /> */}
+      <SymbolOfExcellenceComponent> 
     </div>
   );
 }
