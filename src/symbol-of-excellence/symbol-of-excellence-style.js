@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SymbolOfExcellenceStyle = styled.div`
   width: 100%;
   padding: 80px 20px;
-  background: #f8f8f8;
+  background:white;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 
