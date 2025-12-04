@@ -68,7 +68,12 @@ import "./App.css";
 import FlexBoxComponent from "./flex-box/flex-box-component";
 import HelloWorldComponent from "./Hello-world/hello-world-component";
 import LeadersTomorrowComponent from "./leaders-tomorrow/leaders-tomorrow-component";
+import PostionComponent from "./positioning/position-component";
 import SymbolOfExcellenceComponent from "./symbol-of-excellence/symbol-of-excellence-component";
+import TrustedbyComponent from "./trusted-by/trusted-by-component";
+import ImpactOfGlanceComponent from "./temp-folder/temp";
+import OurPromiseCompnent from "./our-promise/our-promise-component";
+
 
 function App() {
   return (
@@ -76,8 +81,11 @@ function App() {
       {/* <HelloWorldComponent /> */}
       {/* <FlexBoxComponent /> */}
       {/* <LeadersTomorrowComponent /> */}
-      <SymbolOfExcellenceComponent />
-
+      {/* <SymbolOfExcellenceComponent /> */}
+     {/* <PostionComponent/> */}
+     {/* <TrustedbyComponent/> */}
+     {/* <ImpactOfGlanceComponent/>  */}
+     <OurPromiseCompnent/>
     </div>
   );
 }
