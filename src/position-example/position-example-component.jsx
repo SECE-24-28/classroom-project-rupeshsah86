@@ -1,10 +1,10 @@
 import React from "react";
-import { PostionExampleStyle } from "./position-example-style";
+import { PositionExampleStyle } from "./position-example-style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBuildingColumns } from "@fortawesome/free-solid-svg-icons";
 const PositionExampleComponent = () => {
   return (
-    <PostionExampleStyle>
+    <PositionExampleStyle>
       <div>
         <div className="box">
           <div className="box__content">
@@ -19,7 +19,7 @@ const PositionExampleComponent = () => {
           <div className="box__color"></div>
         </div>
       </div>
-    </PostionExampleStyle>
+    </PositionExampleStyle>
   );
 };
 export default PositionExampleComponent;

@@ -6,7 +6,7 @@ import LeadersTomorrowComponent from "./leaders-tomorrow/leaders-tomorrow-compon
 import OurPromisesComponent from "./our-promises/our-promises";
 import PositionExampleComponent from "./position-example/position-example-component";
 import PostionComponent from "./positioning/position-component";
-import SymbolOfExcellenceComponent from "./symbol-of-excellence/symbol-of-execllence-component";
+import SymbolOfExcellenceComponent from "./symbol-of-excellence/symbol-of-excellence-component";
 import TrustedbyComponent from "./trusted-by/trusted-by-component";
 
 function App() {

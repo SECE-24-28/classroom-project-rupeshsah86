@@ -23,7 +23,7 @@ const SymbolOfExcellenceComponent = () => {
           </p>
         </div>
         <div className="element__two__child">
-          <h2>Our Mission</h2>
+          <h2 className="sub__title">Our Mission</h2>
           <p>
             Our mission is to revolutionize education by providing comprehensive
             training in aptitude, coding, and web/mobile development. We foster
