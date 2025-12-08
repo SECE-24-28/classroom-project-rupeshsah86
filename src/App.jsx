@@ -76,6 +76,7 @@ import TrustedbyComponent from "./trusted-by/trusted-by-component";
 import PropsPractice from "./props-practice/props-practice";
 import SymbolOfExcellenceComponent from "./symbol-of-excellence/symbol-of-excellence-component";
 import FourOFourComponent from "./404-component/404-component";
+import UseStateComponent from "./usestate-1st/use-state-component";
 function App() {
   const arr1 = [
     { name: "sai", mobile: "1234" },
@@ -112,7 +113,8 @@ function App() {
           <Route path="our-promise" element={<OurPromisesComponent />} />
         </Route> */}
         {/* <Route path="/leetcode/:id" element={<SymbolOfExcellenceComponent />} /> */}
-        <Route path="*" element={<FourOFourComponent />} />
+        {/* <Route path="*" element={<FourOFourComponent />} /> */}
+        <Route path="/" element={<UseStateComponent />} />
       </Routes>
     </div>
   );
