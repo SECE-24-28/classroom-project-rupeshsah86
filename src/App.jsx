@@ -77,11 +77,14 @@ import PropsPractice from "./props-practice/props-practice";
 import SymbolOfExcellenceComponent from "./symbol-of-excellence/symbol-of-excellence-component";
 import FourOFourComponent from "./404-component/404-component";
 import UseStateComponent from "./usestate-1st/use-state-component";
+import UsestateformComponent from "./use-state-form/use-state-form-component";
+import AdditionOperationComponent from "./addition-operation-in-state/addition-operation-component";
+import RegisterApp from "./pages/Register";
 function App() {
-  const arr1 = [
-    { name: "sai", mobile: "1234" },
-    { name: "ragu", mobile: "5678" },
-  ];
+  // const arr1 = [
+  //   { name: "Ram", mobile: "1234" },
+  //   { name: "Hari", mobile: "5678" },
+  // ];
   const IndexPage = () => {
     return (
       <div
@@ -114,7 +117,13 @@ function App() {
         </Route> */}
         {/* <Route path="/leetcode/:id" element={<SymbolOfExcellenceComponent />} /> */}
         {/* <Route path="*" element={<FourOFourComponent />} /> */}
-        <Route path="/" element={<UseStateComponent />} />
+        {/* <Route path="/" element={<UseStateComponent />} /> */}
+        {/* <Route path="/" element={<UsestateformComponent />} /> */}
+        {/* <Route path="/" element={<AdditionOperationComponent />} /> */}
+        <Route path="/" element={<RegisterApp />} />
+
+        
+        
       </Routes>
     </div>
   );
