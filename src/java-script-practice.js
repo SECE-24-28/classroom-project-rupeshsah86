@@ -3,9 +3,9 @@
 // let arr = [1, 2, 3, 4];
 // console.log("The array is", arr);
 // console.log("The array is", arr[0]);
-let arrString = ["Sai", "ram", "sree"];
+// let arrString = ["Sai", "ram", "sree"];
 // console.log("The first character:",arrString[0]);
-arrString.push("Eshwar");
+// arrString.push("Eshwar");
 // console.log("The arry string:", arrString);
 //arrString[0][0]
 // console.log("The char is:", arrString[0][0]);
@@ -42,7 +42,7 @@ arrString.push("Eshwar");
 // console.log("The ans:", addition(10, 20));
 
 let arrObject = [
-    
+
   { name: "A", mark: 100, address: "Chennai" },
   { name: "B", mark: 95, address: "Kovai" },
   { name: "C", mark: 96, address: "Mumbai" },
