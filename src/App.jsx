@@ -120,7 +120,8 @@ function App() {
         {/* <Route path="/" element={<UseStateComponent />} /> */}
         {/* <Route path="/" element={<UsestateformComponent />} /> */}
         {/* <Route path="/" element={<AdditionOperationComponent />} /> */}
-        <Route path="/" element={<RegisterApp />} />
+        {/* <Route path="/" element={<RegisterApp />} /> */}
+        <Route path="/api-fetch" element={<FetchApiComponent />} />
 
         
         

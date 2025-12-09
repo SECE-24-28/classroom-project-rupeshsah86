@@ -72,11 +72,11 @@ const Register = () => {
             options={["CSE", "ECE", "AIDS", "IT", "EEE", "CIVIL", "MECANICAL"]}
           />
           <Select
-            label="UG or PG"
+            label="UG or PG or master"
             name="degree"
             onChange={handleChange}
             value={form.degree}
-            options={["UG", "PG"]}
+            options={["UG", "PG","master"]}
           />
         </div>
 
