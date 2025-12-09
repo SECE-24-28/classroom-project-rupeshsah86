@@ -13,7 +13,7 @@ export const PostionStyle = styled.div`
   .element__one {
     width: 300px;
     height: 300px;
-    background-color: blue;
+    background-color: green;
     margin-top: 20px;
   }
   .square {

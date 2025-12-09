@@ -23,13 +23,8 @@ const SymbolOfExcellenceComponent = () => {
           </p>
         </div>
         <div className="element__two__child">
-          <h2
-            className="sub__title"
-            style={{ color: "aqua", borderLeft: "4px solid aqua" }}
-          >
-            Our Mission
-          </h2>
-          <p className="details">
+          <h2 className="sub__title">Our Mission</h2>
+          <p>
             Our mission is to revolutionize education by providing comprehensive
             training in aptitude, coding, and web/mobile development. We foster
             a culture of inclusivity and personal growth.
