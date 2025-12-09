@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const PostionExampleStyle = styled.div`
+export const PositionExampleStyle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@ export const PostionExampleStyle = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0.4rem;
-    translate: -50% -50%;
+    transform: translate(-50%, -50%);
   }
   .circle {
     width: 70px;

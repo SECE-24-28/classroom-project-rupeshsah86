@@ -6,7 +6,6 @@ export const TrustedByStyle = styled.div`
   h1 {
     text-align: center;
     margin-bottom: 50px;
-    color: Black;
   }
   .parent {
     display: flex;
