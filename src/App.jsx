@@ -80,6 +80,12 @@ import UseStateComponent from "./usestate-1st/use-state-component";
 import UsestateformComponent from "./use-state-form/use-state-form-component";
 import AdditionOperationComponent from "./addition-operation-in-state/addition-operation-component";
 import RegisterApp from "./pages/Register";
+import FetchApiComponent from "./fetch-api/fetch-api-component";
+import LoadingSpinner from "./loading-spinner/loading-spinner-component";
+import UseEffectComponent from "./use-effect-practice/use-effect-practice";
+import UseEffectPracticeTwo from "./use-effect-practice/use-effect-practice-2";
+import UseEffectPracticeThree from "./use-effect-practice/use-effect-practice-3";
+import SignupFormComponent from "./signup-form-api/signup-form-component";
 function App() {
   // const arr1 = [
   //   { name: "Ram", mobile: "1234" },
@@ -120,9 +126,14 @@ function App() {
         {/* <Route path="/" element={<UseStateComponent />} /> */}
         {/* <Route path="/" element={<UsestateformComponent />} /> */}
         {/* <Route path="/" element={<AdditionOperationComponent />} /> */}
-        <Route path="/" element={<RegisterApp />} />
+        {/* <Route path="/" element={<RegisterApp />} /> */}
+        {/* < Route path="/" element={<FetchApiComponent/>} /> */}
+        {/* < Route path="/" element={<UseEffectComponent/>} /> */}
+         {/* <Route path="/use-effect-practice-2" element={<UseEffectPracticeTwo />} /> */}
+        {/* <Route path="/" element={<UseEffectPracticeThree />} /> */}
+        <Route path ="/" element={<SignupFormComponent />} />
 
-        
+    
         
       </Routes>
     </div>
