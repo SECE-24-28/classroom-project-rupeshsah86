@@ -127,11 +127,7 @@ function App() {
         {/* <Route path="/" element={<UsestateformComponent />} /> */}
         {/* <Route path="/" element={<AdditionOperationComponent />} /> */}
         {/* <Route path="/" element={<RegisterApp />} /> */}
-        {/* < Route path="/" element={<FetchApiComponent/>} /> */}
-        {/* < Route path="/" element={<UseEffectComponent/>} /> */}
-         {/* <Route path="/use-effect-practice-2" element={<UseEffectPracticeTwo />} /> */}
-        {/* <Route path="/" element={<UseEffectPracticeThree />} /> */}
-        <Route path ="/" element={<SignupFormComponent />} />
+        <Route path="/api-fetch" element={<FetchApiComponent />} />
 
     
         
